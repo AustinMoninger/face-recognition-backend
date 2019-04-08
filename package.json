@@ -1,7 +1,6 @@
 {
   "name": "face-recognition-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,7 +13,18 @@
     "nodemon": "^1.18.10"
   },
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinMoninger/face-recognition-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AustinMoninger/face-recognition-backend/issues"
+  },
+  "homepage": "https://github.com/AustinMoninger/face-recognition-backend#readme",
+  "description": ""
 }
