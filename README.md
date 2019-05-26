@@ -11,12 +11,14 @@ The backend server was created using Node.js and Express.js. The server is conne
 
 ## What I Learned
 
-* Creating endpoints for a RESTful API
-* Creating a backend server with Node.js and Express.js
-* Using Postman to test the endpoints of my server
-* Connecting a backend server to a database and interacting with that database from the endpoints
-* Using a cryptographic library ([bcrypt](https://www.npmjs.com/package/bcrypt)) to store private user information in a database
-* How to deploy a project with Heroku
+How to...
+
+* create endpoints for a RESTful API
+* create a backend server with Node.js and Express.js
+* use Postman to test the endpoints of my server
+* connect a backend server to a database and interacting with that database from the endpoints
+* use a cryptographic library ([bcrypt](https://www.npmjs.com/package/bcrypt)) to store private user information in a database
+* deploy a project with Heroku
 
 ## Available Scripts
 
@@ -24,6 +26,6 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the backend in the development mode. This will probably not work in its current state that it depends on Heroku environment variables.
+Runs the backend in the development mode. This will probably not work in its current state because there are environment variables that depend on the Heroku environment that the project is deployed on.
 
 
